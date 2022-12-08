@@ -5,6 +5,8 @@ public class Main {
     public static void main(String[] args) {
         ConsoleReader reader = new ConsoleReader();
         ConsoleWriter writer = new ConsoleWriter();
+
+        //Strategy
 //        //get input
 //        String input = reader.readLine();
 //        // respond
@@ -13,6 +15,8 @@ public class Main {
 //        chat.setChatBoxMode(google);
 //
 //        writer.write(chat.getResponse());
+
+        //Builder
 
         EnglishEmailBuilder builder = new EnglishEmailBuilder();
 
